@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
+    scroll-behavior: smooth;
+
+    // To include Mixins
+     @include respond(big-desktop) {
+        font-size: 75%; 
+    }
+    
+    @include respond(tab-land) { 
+        font-size: 56.25%; 
+    }
+
+    @include respond(tab-port) { 
+        font-size: 48%; 
+    }
+    
+     @include respond(phone) {
+        font-size: 40%; 
+    }
+
+   
+   
+}
+
+body {
+//    font-family: $font-primary;
+//    color: $color-grey-dark-2;
+    font-weight: 300;
+    line-height: 1.6;
+    background-color: $primary-color;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(5, 100vh) 70vh 30vh;
+    grid-template-columns: [full-start] minmax(3rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 18rem) [col-end]) [center-end] minmax(3rem, 1fr) [full-end]
+}

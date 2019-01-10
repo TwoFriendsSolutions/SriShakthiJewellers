@@ -1,0 +1,20 @@
+@import "abstract/mixins";
+@import "abstract/variables";
+
+@import "base/animation";
+@import "base/typography";
+@import "base/base";
+@import "base/utilities";
+
+@import "components/gold";
+@import "components/silver";
+@import "components/contact";
+@import "components/slick";
+@import "components/collections";
+
+
+@import "layout/header";  
+@import "layout/footer";
+
+@import "pages/home";
+ 

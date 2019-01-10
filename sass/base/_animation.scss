@@ -1,0 +1,82 @@
+@keyframes rotate{
+
+    0%   {
+        
+        transform: rotate(45deg);
+        transform-origin: center;
+    }
+    
+     50%   {
+        
+        transform: rotate(20deg);
+        transform-origin: top left;
+    }
+
+    100% {
+        
+        transform: rotate(0deg);
+        transform-origin: top right;
+    }
+
+}
+
+@keyframes rotateLogo{
+
+    0%   {
+        
+        transform: rotate(0deg);
+        transform-origin: center;
+    }
+     12.5%   {
+        
+        transform: rotate(45deg);
+        transform-origin: center;
+    }
+     25%   {
+        
+        transform: rotate(90deg);
+        transform-origin: center;
+    }
+
+    37.5% {
+        
+        transform: rotate(135deg);
+        transform-origin: center;
+    }
+    50% {
+        
+        transform: rotate(180deg);
+        transform-origin: center;
+    }
+    62.5%   {
+        
+        transform: rotate(225deg);
+        transform-origin: center;
+    }
+     75%   {
+        
+        transform: rotate(270deg);
+        transform-origin: center;
+    }
+     87.5%   {
+        
+        transform: rotate(315deg);
+        transform-origin: center;
+    }
+
+    100% {
+        
+        transform: rotate(360deg);
+        transform-origin: center;
+    }
+    
+
+}
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

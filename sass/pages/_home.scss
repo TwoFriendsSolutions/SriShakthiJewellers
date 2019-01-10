@@ -1,0 +1,34 @@
+.header {
+    grid-column: full-start / full-end;
+    overflow: hidden;
+}
+
+.gold {
+    grid-column: center-start / center-end;
+    background-color: white;
+}
+
+.silver {
+    grid-column: center-start / center-end;
+    background-color: #f7f7f7;
+}
+
+.collections {
+    grid-column: center-start / center-end;
+    background-color: white;
+}
+
+.about-us {
+    grid-column: full-start / full-end;
+    background-color: rosybrown;
+}
+
+.contact{
+    grid-column: full-start / full-end;
+    background-color: firebrick;
+}
+
+.footer {
+    grid-column: full-start / full-end;
+    background-color: aqua;
+}
